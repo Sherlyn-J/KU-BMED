@@ -115,3 +115,12 @@ history   = model.fit(
 
 # Evaluate on test set
 model.evaluate([X_test[:,:num_snps], X_test[:,num_snps:]],y_test)
+
+# SHAP feature importance
+select = np.random.randint( len(X_train), size=100 )
+# select backgroud for shap
+background = [X_train[select,:num_snps], X_train[select,num_snps:]]
+# DeepExplainer to explain predictions of the model
+explainer = shap.DeepExplainer(reload2, background)
+# compute shap values
+shap_values = explainer.shap_values([X_test[:,:num_snps], X_test[:,num_snps:]], check_additivity=True)
