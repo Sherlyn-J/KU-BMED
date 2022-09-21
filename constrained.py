@@ -108,7 +108,7 @@ history   = model.fit(
                     [X_resampled[:,:num_snps], X_resampled[:,num_snps:]], 
                     y_resampled, 
                     epochs         = 120,
-                    callbacks      = callback1,
+                    callbacks      = callback,
                     validation_data= ([X_val[:,:num_snps], X_val[:,num_snps:]], y_val), 
                     verbose        = False,
 )
