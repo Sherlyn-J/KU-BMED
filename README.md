@@ -1,1 +1,3 @@
-# KU-BMED
+# Explainable AI model to identify biomarkers in Alzheimer’s disease
+
+We developed an interpretable AI model which utilizes variant data and microarray data from ADNI to predict the disease status of participants, and identify potential blood-based biomarkers for diagnosis and intervention. Model performance in testing yielded an AUC of 70%. The model incorporates constraints based on biological information, which enhances performance and interpretability. We used SHapley Additive exPlanations (SHAP) to identify genes which could potentially serve as biomarkers for diagnosis and enable identification of targets for drug development.
