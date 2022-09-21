@@ -84,7 +84,6 @@ lr_schedule = keras.optimizers.schedules.ExponentialDecay(
 model.compile(
                     optimizer= keras.optimizers.Adam(learning_rate=lr_schedule, name="adam"),
                     loss     = tf.keras.losses.BinaryCrossentropy(),
-                               # tfa.losses.SigmoidFocalCrossEntropy(alpha=1.0,gamma=0.5,from_logits=True),}
                     metrics  = [ 
                         tf.keras.metrics.CategoricalAccuracy(name='sp_acc'),
                         tf.keras.metrics.AUC(name='auc'),
