@@ -7,3 +7,6 @@ We developed an interpretable AI model which utilizes variant data and microarra
 The data that support the findings of this study are available from ADNI, but restrictions apply to the availability of these data, which were used under license for the current study, and so are not publicly available.
 
 † Data used in preparation of this article were obtained from the Alzheimer’s Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu). As such, the investigators within the ADNI contributed to the design and implementation of ADNI and/or provided data but did not participate in analysis or writing of this report. A complete listing of ADNI investigators can be found at: <a href="http://adni.loni.usc.edu/wp-content/uploads/how_to_apply/ADNI_Acknowledgement_List.pdf"> link </a>
+
+# Reference
+Jemimah, S., AlShehhi, A. for the Alzheimer’s Disease Neuroimaging Initiative. c-Diadem: a constrained dual-input deep learning model to identify novel biomarkers in Alzheimer’s disease. <i>BMC Med Genomics</i> 16 (Suppl 2), 244 (2023). <a href="https://doi.org/10.1186/s12920-023-01675-9"> https://doi.org/10.1186/s12920-023-01675-9 </a>
